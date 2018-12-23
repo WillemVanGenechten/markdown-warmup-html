@@ -15,14 +15,36 @@ header {
 p{
     font-family: 'Merriweather', serif;
 }
+img {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border radius: 10px;
+}
+.lg img {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border radius: 10px;
+}
+.introduction h2 {
+    font-family:'Merriweather', serif;
+    font-size: 25px;
+}
+.overview h2 {
+    font-family:'Merriweather', serif; 
+    font-size: 25px;
+}
 main {
     background-color:white;
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
 }
-footer{
-    background-color:rgb(171, 226, 245);
+footer {
+    background-color:#4CAF50;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -59,20 +81,20 @@ nav a:hover {
 }
 nav a.active {
     background-color: #4CAF50;
-  color: white;
+    color: white;
 }
 .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 1em;
     grid-auto-rows: minmax(auto);
+    text-align: center
+}
+.grid article {
+    border: 1px solid #333;
 }
 .lg {
     background-color: #ddd
-}
-.nested {
-    border: 1px solid #333;
-    text-align: center
 }
 .rw-wrapper{
 	width: 80%;
